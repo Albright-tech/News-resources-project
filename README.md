@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# News Sources App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+News Sources is a comprehensive web application that aims to simplify the process of finding news online.
 
-## Available Scripts
+With the multitude of news sources available, it can be exhausting and time-consuming to browse through different websites to get the latest updates on various topics.
 
-In the project directory, you can run:
+This app addresses that challenge by aggregating news sources from different categories, providing users with a one-stop platform to access a wide range of news content.
 
-### `npm start`
+The app allows a user to:
+- View news article headlines.
+- See the author/source of a news article.
+- View different news categories and get articles for a selected category.
+- Search for different news articles.
+- Read full news article by clicking on the linked article.
+- Get our contacts for more enquiry.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Setup Requirements
+- Visual Studio Code, see [here](https://code.visualstudio.com/)
+- Windows Subsystem for Linux (WSL), details [here](https://learn.microsoft.com/en-us/windows/wsl/install)
+- Git
+- Github and GitHub pages [deployment](https://github.com/Albright-tech);
+- Node.js (includes npm), see [here](https://nodejs.org/en)
+- json-server, see [here](https://www.npmjs.com/package/json-server)
+- Any Modern Web Browser
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Installation
+To run the News App locally:
 
-### `npm test`
+- Clone/Download the repository.
+- Install the required dependencies using `npm install.`
+- Start the development server using `npm start.`
+- Open your browser and navigate to `http://localhost:3000` or to the link with any other available port assigned when starting the server
+- The app should run on any modern web browser with JavaScript enabled
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Issues
+- A known issue is that the deployed website will not display articles, this is because we use the free NewsAPI plan that can only show results when working on localhost / development.
 
-### `npm run build`
+# Dependencies
+The News App project uses the following dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React - A JavaScript library for building user interfaces.
+- gh-pages - Deploys React application to GitHub pages
+- React Router - Routes links to give React a multi-page experience
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Languages and APIs
+- HTML and CSS
+- JavaScript
+- React / JSX
+- JSON
+- NewsAPI - An API to fetch news articles, see [here](https://newsapi.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Screenshots
+View news article headlines, see authors/source(s) and view articles from a selected category.
 
-### `npm run eject`
+![](./screenshots/1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Search for different news articles.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](./screenshots/2.png)
+![](./screenshots/3.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Get our contacts for more enquiry.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![](./screenshots/4.png)
 
-## Learn More
+# Contributing
+Contributions are welcome! If you find any bugs or want to add new features, feel free to open an issue or submit a pull request. Please follow the existing code style and conventions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Author(s)
+This is a group project created by:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Albright Muchori](https://github.com/Albright-tech)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# License
+News Sources. An app that provides the most convenient way to access all news stories in one place
 
-### Analyzing the Bundle Size
+Copyright (C) 2023
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Licensed under GNUv3. See [license](/LICENSE)
 
-### Making a Progressive Web App
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-### Advanced Configuration
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acknowledgements
+The News App project is created for learning purposes and uses the newsapi.org to fetch news articles.
