@@ -5,9 +5,9 @@ const Footer = () => {
     <footer>
       <div>
         <p>NS Group</p>
-        <a href='mailto:newssources@example.com'>newssources@example.com</a>
-        <a href='#'>Privacy Policy</a>
-        <a href='#'>Terms & Conditions</a>
+        <button>'mailto:newssources@example.com'</button>
+        <button>Privacy Policy</button>
+        <button>Terms & Conditions</button>
       </div>
     </footer>
   );
